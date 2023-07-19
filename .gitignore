@@ -1,0 +1,57 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+#built application files
+*.apk
+*.ap_
+*.aab
+*.zip
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Windows thumbnail db
+Thumbs.db
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+build/
+.navigation
+captures/
+output.json
+output-metadata.json
+*.iws
+*.ipr
+.idea/
+*/build/
+*~
+*.swp
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.log
+*.hprof
+!app/libs/*.jar

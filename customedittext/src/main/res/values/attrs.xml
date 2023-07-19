@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomEditText">
+
+        <attr name="border_radius" format="dimension" />
+        <attr name="body_height" format="dimension" />
+        <attr name="label_height" format="dimension" />
+        <attr name="error_label_height" format="dimension" />
+        <attr name="drawable_size" format="dimension" />
+
+        <!-- Normal body color attributes -->
+        <attr name="strokeNormalColor" format="color" />
+        <attr name="fillNormalColor" format="color" />
+
+        <!-- Success body color attributes -->
+        <attr name="strokeSuccessColor" format="color" />
+        <attr name="fillSuccessColor" format="color" />
+
+        <!-- Error body color attributes -->
+        <attr name="strokeErrorColor" format="color" />
+        <attr name="fillErrorColor" format="color" />
+
+        <!-- Disabled body color attributes -->
+        <attr name="strokeDisabledColor" format="color" />
+        <attr name="fillDisabledColor" format="color" />
+
+        <!-- View text attributes -->
+        <attr name="cc_textColor" format="color" />
+        <attr name="cc_hintTextColor" format="color" />
+        <attr name="disabledTextColor" format="color" />
+
+        <!-- Validation attributes -->
+        <attr name="regex" format="string" />
+        <attr name="inValidMessage" format="string" />
+        <attr name="cc_isRequired" format="boolean" />
+        <attr name="errorMessage" format="string" />
+
+        <!-- Floating label attributes -->
+        <attr name="label_fontFamily" format="string" />
+        <attr name="labelText" format="string" />
+        <attr name="labelColor" format="color" />
+        <attr name="labelTextSize" format="dimension" />
+
+        <!-- Bottom label attributes -->
+        <attr name="errorLabel_fontFamily" format="string" />
+        <attr name="errorLabelColor" format="color" />
+        <attr name="errorLabelTextSize" format="dimension" />
+        <attr name="showErrorText" format="boolean" />
+
+        <!-- Drawable attributes -->
+        <attr name="drawableLeftCompat" format="reference" />
+        <attr name="drawableRightCompat" format="reference" />
+
+    </declare-styleable>
+
+</resources>
